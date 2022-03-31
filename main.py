@@ -75,6 +75,7 @@ if vybrane_cislo_textu.isnumeric():
 else:
     # neni-li zadana hodnota ciselna, program skonci
     print("Zadná hodnota není číslo, ukončuji program")
+    quit()
 
 # vytisknuti oddelovace pro lepsi orientaci
 print(oddelovac)
